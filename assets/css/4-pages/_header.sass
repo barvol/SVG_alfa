@@ -1,8 +1,10 @@
 .section
-	background: #eee
-	margin: auto
-	padding: 100px
-	text-align: right
+	background-image: url(../../img/seamless-watercolor-1.jpg)
+	background-repeat: repeat-x
+	background-position: right bottom;
+	heihgt: 100px
+	padding: 50px
+	text-align: left
 
 	h1
 		@extend .main_font
@@ -11,6 +13,26 @@
 		@extend .main_font
 		margin: 0px
 		padding: 0px
-		text-align: right
+		text-align: left
 	p
-		text-align: right
+		text-align: left
+.menu
+	margin-top: 15px 
+	
+	li
+		display: inline-block
+		line-decorarion: none
+		font-size: 18px
+		margin: 0 0 0 20px
+		padding: 5px 20px
+		cursor: pointer
+		//border: #666 solid 1px
+		border-radius: 5px
+		font-weight: bold
+
+		&:hover
+			color: #fff
+			background-color: #191104
+			//border: #191104 solid 1px
+
+
