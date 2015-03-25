@@ -1,9 +1,10 @@
 header.section
-		nav.menu
-			ul
-				- for (var i = 0; i<menu.length; i++) {
-				li(href=menu[i].link) #{menu[i].name}
-				- }
+	nav.menu
+		ul
+			- for (var i = 0; i<menu.length; i++) {
+			li(href=menu[i].link) #{menu[i].name}
+			- }
+	.wrapper
 		.row
 			.col-md-6
 			.col-md-6
