@@ -1,13 +1,15 @@
-header.section
-	nav.menu
-		ul
-			- for (var i = 0; i<menu.length; i++) {
-			li(href=menu[i].link) #{menu[i].name}
-			- }
-	.wrapper
-		.row
-			.col-md-6
-			.col-md-6
-				h1 Свадебный Гид
-				h3 Ваша свадьба на Санторини!
-				p Организация свадеб, помолвок, годовщин и иных торжеств на чудесном греческом острове Санторини! Вы вдохновляете мы создаем!
+header
+	.section
+		nav.menu
+			ul
+				- for (var i = 0; i<menu.length; i++) {
+				li
+					a(href=menu[i].link) #{menu[i].name}
+				- }
+		.wrapper
+			.row
+				.col-md-6
+				.col-md-6
+					h1 Свадебный Гид
+					h3 Ваша свадьба на Санторини!
+					p Организация свадеб, помолвок, годовщин и иных торжеств на чудесном греческом острове Санторини! Вы вдохновляете мы создаем!
